@@ -45,7 +45,7 @@ class BattleCog(commands.Cog):
         
         # MongoDB setup
         self.client = MongoClient(
-            "mongodb+srv://billymcdugal:Passport86@economy.iaynb.mongodb.net/"
+       
         )
         self.db = self.client["Player"]
         self.collection = self.db["Player.Stats"]
@@ -1233,4 +1233,5 @@ async def process_call_allies(self, ctx, battle):
     
 
         
+
 
